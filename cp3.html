@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Runtime Terror</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>Runtime<br>Terror</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a>  
+    <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Milestone 2</a>
+    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">User Experience Requirements</a>
+    <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Choosen User Stories</a>
+    <a href="#designers1" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Brain Storming</a>
+    <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Alternative Designs</a>
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Mockups</a>
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Video</a>
+    <a href="#ref" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Refrences</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Runtime Terror/span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1 class="w3-jumbo"><b>Milestone 3</b></h1>
+  </div>
+
+
+  
+  <div class="w3-container" id="services" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>User Experience Requirements</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>
+      <b>Teachers:</b><br>
+      <ol>
+<li>As a teacher I want to know if my students are in person or online in order to accurately accommodate their situation.  (Task - collect attendance information, display attendance information to teacher )</li>
+<li>As a teacher I want students to easily find a way to class (online or in person) so that they are not late or absent. (Task - direct students to class)</li>
+<li>As a teacher I want an easy way to see how my students participated in class in order to take accurate attendance. (Task - taking attendance)</li>
+<li>As a teacher I want an easy way for students to participate in class so that they don’t have to stress. (Task - allow students to easily access class)</li>
+<li>As a teacher I want to communicate to my students how many seats are available in the classroom in order to utilize the space to the fullest (not over crowded or empty). (Task - planning classroom layout)</li>
+<li>As a teacher I want to manage my zoom links for lecture and office hours to make them more visible and accessible to all. (Task - efficiency, simplicity)</li>
+</ol>
+<br><b>Students:</b><br>
+<ol>
+  <li>As a student I want to know if there are seats available in my hybrid synchronous class so that I do not attend a full class and then get kicked out. (Task - attending class)</li>
+  <li>As a student I want my professors to know how I plan to participate in class in order to be marked present. (Task - get credit for participation)</li>
+  <li>As a student I want to be able to easily find the zoom link for my online lecture in order to attend class online and on time. (Task - attending class)</li>
+  <li>As a student I want to be able to reserve a seat in the classroom because I learn better in person. (Task -signing up for in person instruction)</li>
+  <li>As a student I want to be able to  easily maneuver to important links and have them displayed. (Task - ease of use)</li>
+</ol>
+</p>
+  </div>
+  
+  
+  <div class="w3-container" id="designers" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Choosen User Stories</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>
+      <b>Teacher Story Justifications:</b><br>
+      <ol>
+      <li value="3"> Keeping track of online and in-person students  in a hybrid synchronous class can be a tedious task. By decreasing the capacity of zoom sessions and in-class seating, the professor can create a signup sheet where students are required to input their own information and be more self-reliant. Users state how and when they plan to  participate in lectures thus making reservations for the limited accommodations. This enables the instructor to see who should be present and in what way. This also gives students the option to choose between in-person or online lectures based on availability and monitor their own attendance</li>
+      <li value="5">We think this is one of the most important parts of our apps because one of our main targets is for the app to better fill classrooms to capacity. By allowing this communication between teachers and students, we can ensure that the students scheduled to attend class are interested in attending, and allow students who decide not to go to a physical class be replaced with a student who wants to attend in person</li>
+      <li>We want to make sure that teachers have a clear way of seeing their zoom links as well as making sure that students can easily find them as well. This will make it easier to find the specific link for your class and sign in</li>
+    </ol>  
+
+    <b>Student Story Justifications:</b><br>
+      <ol>
+      <li> This is the user story that originally inspired part of our application. When the university switched to online synchronous, online asynchronous , hybrid synchronous, and hybrid asynchronous classes it was hard for students and teachers to adept and know clearly how to approach these new forms of learning. A lot of this confusion was with lack of communication. We want our application to be the bridge to help people understand, and for students that starts with clearly knowing where to be and when. Which is why we chose this as one of our user stories for the app</li>
+      <li>There’s currently no way for students to let teachers know how they plan on attending class. Because hybrid-synchronous makes it difficult for teachers to track attendance(due to multiple classrooms: zoom and in person), students are often worried that their attendance was not counted. This is especially problematic because attendance is typically a direct part of a student’s grade.  There should be a consistency and ease of access to attending class and get credit for it, whether it’s online or in person</li>
+    </ol>  
+    </p>
+  </div>
+
+  <div class="w3-container" id="designers1" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Brainstorming</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>
+      <b>Teacher Wireframe Brainstorming:</b><br>
+
+      <b>3.</b>
+      <ul>
+      <li> Choose your desired class</li>
+      <li>Calendar to choose specific day and time</li>
+      <li>Option to choose between online or in-person attendance. </li>
+      <li>Shows zoom/seating availability and limitations</li>
+      <li>Displays a list of signed up users and their status</li>
+      <li>Confirmation page</li>
+      <li>Shows all relevant info on course such as professor name and contact info</li>
+      <li>Form for students to type in their own personal info</li>
+      <li>Send zoom link or assigned seat to student</li>
+    </ul>  
+
+    <b>5.</b>
+    <ul>
+    <li> Choose your desired class</li>
+    <li>Calendar to choose specific day and time</li>
+    <li>Option to choose between online or in-person attendance. </li>
+  </ul> 
+
+  <b>6.</b>
+  <ul>
+  <li>First screen might have the list of classes the teacher is a part of</li>
+  <li>Have each class be a box</li>
+  <li>Under each class have the zoom links for class and office hours</li>
+</ul> 
+
+    <b>Student Wireframe Brainstorming:</b><br>
+    <b>1.</b>
+    <ul>
+    <li>First screen for student user is list of enrolled classes, plus sign to add class</li>
+    <li>Or just a search bar to find the class</li>
+    <li>Might have to lead enrollment to teachers </li>
+    <li>Have a grid of available seats where students can click and pick a seat</li>
+    <li>Quick add/signup button?</li>
+    <li>Do a pop up once a seat is clicked or go to a new screen</li>
+    <li>Show how many seats are available/taken i.e. 11/15</li>
+    <li>Zoom link on top of the page</li>
+    <li>Also maybe destination tabs on the top or side (possibly make them dynamic) </li>
+  </ul>  
+
+  <b>2.</b>
+    <ul>
+    <li>Some kind of home screen that has a button that says “participation option” or something similar</li>
+    <li>Leads to screen for student is list of enrolled classes</li>
+    <li>Click on class</li>
+    <li>Gives schedule of the class in the week, can click on any day of the week the class is scheduled, which leads to a page described in the next bulletin</li>
+    <li>Given an option to select “online” or “in person”, with the number of seats remaining in each showing next to each option</li>
+    <li>Selecting “online” shows student the zoom link and gives them access</li>
+    <li>Selecting “in person” shows the class location and time</li>
+  </ul>  
+    </p>
+  </div>
+  
+
+
+  <div class="w3-container" id="team" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Alternative Designs</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    
+    <h3>Teachers:</h3>
+    <h4>3.</h4>
+    <img src="/pics/Gian_Wireframes.png" alt="Griffin Riekel" style="width: 100%">
+    <p>
+      <b>Wireframe 1: </b>
+      Students can easily choose one of their own courses and select a specific day for attendance. Students can then see available spaces in class or on zoom as well as the max limit. Teachers can determine who gets credit based on the student id’s on the chart. Confirmation is also needed for attendance by providing the required information including a student email. An email will be sent when submitted that provides the appropriate seating or links. 
+      <br>
+      <b>Wireframe 2: </b>
+      Teachers can see a comprehensive list of students who confirmed their attendance as well as their preferred method of learning. Students can choose one of their own courses and add themselves to the roster by inputting their information. Class information can be seen clearly and visibly for those without access to a syllabus. The last page warns users to check their emails because a confirmation is sent to their student account with access to the seating chart or zoom links.
+      <br>
+      <b>Wireframe 3: </b>
+      Students can locate and access their own courses easily due to the large buttons and fonts as well as the information about the class itself including times, professor name, and contact info. Students can then submit the required personal information and choose a preferred method of learning. The last screen is mainly for the teacher to have a list of all the students who confirmed their attendance as well as provide feedback to the students to check their emails for seats or links.
+      <br>
+    </p>
+    <br> 
+    <br> 
+
+    <h4>5.</h4>
+    <img src="/pics" alt="Griffin Riekel" style="width: 100%">
+    <p>
+      <b>Wireframe 1: </b>
+      
+      <br>
+      <b>Wireframe 2: </b>
+      
+      <br>
+      <b>Wireframe 3: </b>
+     
+      <br>
+    </p>
+    <br> 
+    <br> 
+
+    <h4>6.</h4>
+    <img src="/pics/Eric Mendez T6 Wireframe.png" alt="Griffin Riekel" style="width: 100%">
+    <p>
+      <b>Wireframe 1: </b>
+      
+      <br>
+      <b>Wireframe 2: </b>
+      
+      <br>
+      <b>Wireframe 3: </b>
+      
+      <br>
+    </p>
+    <br> 
+    <br> 
+    
+    <h3>Students:</h3>
+    <h4>1.</h4>
+    <img src="/pics/Wireframes — April 6, 2.07.43 AM.png" alt="Griffin Riekel" style="width: 100%">
+    <p>
+      <b>Menu Bar Location: </b>
+      I had two ideas for the menu bars. Either have them on top of the screen or have it take up a side of the screen. The goal of these menu bars is to allow simple navigation through the website. It needs to be easily visible and consistent throughout the different pages. There are many other ways to create a menu but I am fond of these two because they are quite common. I went to a couple of different websites and took note of where they put their menus and navigation tools to get a good idea of what is common and popular.
+      <br>
+      <b>Desk Signup Orientation: </b>
+      I wanted to make something visual, so my original design is an array of interactive  squares that represent desks in a classroom and have them change color based on interactivity. If this was too complicated or non intuitive I made a simpler design that was just a list of each desk with written out information about which desk it is and its availability. 
+      <br>
+      <b>Pop-up or New Screen:</b>
+      After a student picks a desk they need a way to claim it. I was thinking of a pop up screen that would ask for the users information, but the first idea is not always the best. So I created another design where the sign up is its own page. I think the decision on which one to go with comes down to how much information we will ask for. The pop up is better for short forms because of its size but if we require a lot of information it may be worth it to make the new screen.
+    <br>
+    <b>Boxes or Ovals: </b>
+    While I was playing around in XD I remembered I could turn rectangles into ovals. I thought this might make the design smoother and more modern. The rectangles are simple and fit well with the rest of the screen, but the ovals could provide a splash of something different. 
+    </p>
+    <br>
+    <br>
+
+    <h4>2.</h4>
+    <img src="/pics/Adeeb Khan wireframe.png" alt="Griffin Riekel" style="width: 100%">
+    <p>
+      <b>Menu Bar Location: </b>
+      
+      <br>
+      <b>Desk Signup Orientation: </b>
+     
+      <br>
+      <b>Pop-up or New Screen:</b>
+      
+    <br>
+    <b>Boxes or Ovals: </b>
+    While I was playing around in XD I remembered I could turn rectangles into ovals. I thought this might make the design smoother and more modern. The rectangles are simple and fit well with the rest of the screen, but the ovals could provide a splash of something different. 
+    </p>
+    <br>
+    <br>
+
+  </div>
+  
+  <!-- Contact -->
+  <div class="w3-container" id="contact" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Video</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/LBb1X4L_urI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+  <!-- Contact -->
+  <div class="w3-container" id="ref" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Refrences</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <ol>
+      <li>Mobley, Jason. “Tips &amp; Features for Teaching in a Hybrid Classroom.” Zoom Blog, Zoom Video Communications, 8 Feb. 2021, blog.zoom.us/tips-for-teaching-in-a-hybrid-classroom/</li>
+      <li>Donald A. Norman. The Design of Everyday Things. Basic Books, New York, New York, Revised and Expanded Edition edition, 2013. ISBN 978-0-465-05065-9</li>
+      <li>Zoom Marketplace, Zoom Video Communications Inc, marketplace.zoom.us/apps?category=education</li>
+    </ol>
+  </div>
+
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p></div>
+
+</body>
+</html>
