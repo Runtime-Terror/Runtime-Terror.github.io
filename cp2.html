@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Runtime Terror</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>Runtime<br>Terror</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a>  
+    <a href="cp3.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Milestone 3</a>
+    <a href="cp4.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Milestone 4</a>
+    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Task / Problem Definition</a> 
+    <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Analysis of Existing Solutions</a> 
+    <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">The Team</a> 
+    <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Proposed Solution</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Video</a>
+    <a href="#ref" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Refrences</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Runtime Terror/span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+ 
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1 class="w3-jumbo"><b>Milestone 2</b></h1>
+  </div>
+
+
+  <!-- Introduce your problem -->
+  <div class="w3-container" id="services" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Task / Problem Definition</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p><b>1. Introduction to the Problem:</b> With the introduction of COVID-19, online learning has increased in popularity throughout modern-day educational institutions and, as a result, curriculums have adjusted to accommodate hybrid synchronous courses. These courses allow a certain number of students to join the instructor on a rotating basis for socially-distanced, face-to-face instruction during each class session, with remaining students joining synchronously and remotely through Zoom during assigned class hours.</p>
+    <p>Online learning is still new and evolving at an alarming rate. Updates need to be made to make this virtual environment more efficient and optimized. The main issue is that instructors do not have an effective manner of gathering attendance and organizing zoom links. As a group of students enrolled in a hybrid class, we know how difficult it is to be responsible for several links and keeping track of clashing schedules.
+    </p>
+    <p>Let's look at the problem through the seven stages of action. A students goal is to get to class one way or another. First they must plan if they are going online or in person. Then there are some specifications that must be made. If they want to go in person they either have to find a sign up sheet or see if they are scheduled for that in person class. If they decide to attend online then they need to locate the zoom link or invite code and enter the call. The students must then perform these actions and perceive the results. Did they get into class, was the room full, did they have the proper zoom code or link? These are the many outcomes that a student could get after trying to get to class. If they made it to class, great! If they didn’t then they must compare their result with the goal and try their best to correct it.</p>
+    <p><b>2. Identify your potential users:</b> Our potential users are Teachers and Students. Teachers who have to organize a hybrid synchronous learning environment have to either schedule students for when they are allowed to enter the classroom, or send out sign up sheets for each day of class. They have to do this all while making sure the online students have the right zoom link. Students need to know if there is any room in the physical classroom before showing up to class to avoid being turned away. If a student does not or can’t attend in person class the next step is to find the zoom meeting. Due to the multiple ways to send zoom links and codes it may be difficult to find the invitation right away. A solution to simplify these tasks will benefit teachers by providing an easy way to organize hybrid synchronous attendance, and students by making it easier to attend class. </p>
+  </div>
+  
+  <!-- Designers -->
+  <div class="w3-container" id="designers" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Analysis of Existing Solutions</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p><b>1. Describe existing solutions:</b> Globally, school leaders are expanding their planning for how they will continue to support hybrid classroom environments post-pandemic. When inclement weather, poor air quality days, illness, travel, or other issues prevent students from attending class in person, hybrid classrooms will need to improve their method of checking attendance and classifying Zoom links. There are already solutions to these tedious tasks provided by Zoom and eLC.</p>
+    <p>Zoom recommends “having all students — even those in the physical classroom — join the Zoom class from their individual devices” [1]. With all students on Zoom, instructors can get the most accurate number of total attendees but not the individuals themselves. Breakout Rooms are also a feature on zoom that “facilitate group learning and collaboration between remote and in-person students while also dividing the class to a more manageable size” [1]. Students can ping the instructor for help and instructors can switch between rooms to accommodate needs. In college classes of 80 students, however, having 20 breakout rooms to deal with can be overwhelming and out of control. In-meeting chat is also “a powerful tool for teachers to engage with all students, as stated by Harvard Professor Dan Levy during a Zoom Academy session” [1]. Students can type their opinions and comments can even be read out loud for those participating in-person.
+    </p>
+    <p>ELC also has its own solutions to better incorporate Zoom into their curriculum. Zoom links can be made into widgets or be posted on the syllabus at the beginning of the semester by the instructor. Professor Michael Cotterell, for example, teaches Human Computer Interaction at UGA and created a simple tab on ELC’s taskbar labeled Zoom for easy access. Most teachers, on the other hand, provide the link as an announcement; the oldest posts are at the bottom of the list and require the user to scroll all the way down to view. Spreadsheets are also a common solution for those who have time to search and copy/paste the necessary information. If not, one can memorize the session ID and password of a Zoom meeting then manually type it in. </p>
+    <p><b>2. Describe potential guidelines and solutions:</b> There are certain guidelines and principles these existing solutions follow to make accessibility easier for students. An example of this is the breakout rooms. Whether someone is in the main zoom meeting, or in a breakout room, the layout of the application and how one uses the buttons all remain the same. This is in line with the golden rule for interface design, striving for consistency(Norman, 2013). Zoom chat is a great use of both natural language to easily communicate with the host/other members, and a good use of direct manipulation(since all you have to do is click one button to be able to chat). Zoom links being added to the syllabus/ELC is a great way to reduce short term memory load for the user(Norman, 2013). Instead of having to reenter the zoom link once it’s given, the user can just click on the link. This takes the user straight to the zoom meeting without any short term memory use.
+    </p>
+  </div>
+
+  <!-- The Team -->
+  <div class="w3-container" id="team" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>The Team</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="/pics/Me.jpg" alt="Griffin Riekel" style="width:100%">
+        <div class="w3-container">
+          <h3>Griffin Riekel</h3>
+          
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="/pics/Adeeb.png" alt="Adeeb Khan" style="width:100%">
+        <div class="w3-container">
+          <h3>Adeeb Khan</h3>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="/pics/Eric Mendez.jpg" alt="Eric Mendez" style="width:100%">
+        <div class="w3-container">
+          <h3>Eric Mendez</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="/pics/Byron G.jpg" alt="Byron Grogan" style="width:100%">
+        <div class="w3-container">
+          <h3>Byron Grogan</h3>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="/pics/Gian Cella.png" alt="Gian Cella" style="width:100%">
+        <div class="w3-container">
+          <h3>Gian Cella</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+  <!-- Packages / Pricing Tables -->
+  <div class="w3-container" id="packages" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Proposed Solution: </b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p><b>1. The Proposed solution:</b> An interface that manages multiple zoom links
+      This interface will also let students decide whether they are going in person or online, and will keep track of those who choose to do online. It will afford a “home-base” to students, from where they can access virtual class meetings and register for in-person sessions. </p>
+      <p> It will have signifiers for each action. For every class the student is enrolled in they will have the ability to click a “join class” button that will take them straight to their class meeting. They will also be able to access a list of scheduled classes for their courses where they can sign up for each in-person class. Signifiers for each class-meeting will include a capacity count and labelled buttons: Register/UnRegister</p>
+    <p>Compared to existing solutions, our solution is unique because its focus is on ease of use for students. Existing solutions found on Zoom Marketplace [3]  afford individual zoom features that allow for calendar scheduling, registration, and zoom link access separately - but none of these platforms are designed to do all of these things, and none of these solutions are targeted towards students with UX in mind.</p>
+  <p><b>2. How will we measure success</b></p>  
+  <ul>
+    <li>Time reported saved in accessing zoom lessons throughout the course of a school week by the average student</li>
+    <li>Increased In-Person Attendance for classes that implement our solution</li>
+    <li>Satisfaction reported in survey of users concerning ease of entering a zoom meeting and registering for classes</li>
+  </ul>
+  </div>
+
+  <!-- Contact -->
+  <div class="w3-container" id="contact" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Video</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/LBb1X4L_urI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+  <!-- Contact -->
+  <div class="w3-container" id="ref" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Refrences</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <ol>
+      <li>Mobley, Jason. “Tips &amp; Features for Teaching in a Hybrid Classroom.” Zoom Blog, Zoom Video Communications, 8 Feb. 2021, blog.zoom.us/tips-for-teaching-in-a-hybrid-classroom/</li>
+      <li>Donald A. Norman. The Design of Everyday Things. Basic Books, New York, New York, Revised and Expanded Edition edition, 2013. ISBN 978-0-465-05065-9</li>
+      <li>Zoom Marketplace, Zoom Video Communications Inc, marketplace.zoom.us/apps?category=education</li>
+    </ol>
+  </div>
+
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p></div>
+
+</body>
+</html>
